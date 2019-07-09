@@ -1,0 +1,6 @@
+rootProject.name = 'SocketTest'
+
+include ':app'
+
+include ':WebRTCModule'
+project(':WebRTCModule').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webrtc/android')
